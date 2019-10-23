@@ -7,8 +7,8 @@ CREATE TABLE users (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255) COMMENT 'Имя покупателя',
   birthday_at DATE COMMENT 'Дата рождения',
-  created_at varchar(30),
-  updated_at varchar(30)
+  created_at varchar(28),
+  updated_at varchar(28)
 ) COMMENT = 'Покупатели';
 
 INSERT INTO users (name, birthday_at) VALUES
